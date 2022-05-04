@@ -18,22 +18,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.123"
-        app:srcCompat="@drawable/ic_logo_dp" />
+        app:srcCompat="@drawable/ic_logo_amarela" />
 
     <TextView
-       android:id="@+id/title"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_gravity="center_horizontal"
-       android:text="Vou-Não-Vou"
-       app:layout_constraintLeft_toLeftOf="parent"
-       app:layout_constraintRight_toRightOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/img_logo"/>
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bem Vindo"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="362dp"
+        android:layout_height="129dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="45dp"
@@ -47,8 +48,8 @@
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="337dp"
-            android:layout_height="wrap_content"
+            android:layout_width="323dp"
+            android:layout_height="54dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/input_radius"
             android:hint="E-mail" />
@@ -56,8 +57,8 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="366dp"
+        android:layout_height="104dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="70dp"
@@ -72,8 +73,8 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="334dp"
-            android:layout_height="wrap_content"
+            android:layout_width="323dp"
+            android:layout_height="54dp"
             android:background="@drawable/input_radius"
             android:hint="Matrícula" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -86,9 +87,13 @@
         android:text="Entrar"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723"
+        tools:ignore="MissingConstraints" />
 
     <TextView
        android:id="@+id/version_app"
@@ -100,8 +105,6 @@
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintRight_toRightOf="parent" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
