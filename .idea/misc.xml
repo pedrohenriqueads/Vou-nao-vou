@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/Vou-nao-vou/app/src/main/res/drawable/input_radius.xml" value="0.1795" />
         <entry key="..\:/Users/User/Desktop/Vou-nao-vou/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Vou-nao-vou/app/src/main/res/layout/activity_main_tela_home.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/mobfip-vou-nao-vou/app/src/main/res/drawable/ic_logo_dp.xml" value="0.1935" />
         <entry key="..\:/Users/User/Desktop/mobfip-vou-nao-vou/app/src/main/res/drawable/input_radius.xml" value="0.1935" />
         <entry key="..\:/Users/User/Desktop/mobfip-vou-nao-vou/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
