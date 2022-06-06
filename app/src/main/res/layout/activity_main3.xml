@@ -83,7 +83,7 @@
         android:id="@+id/button4"
         android:layout_width="73dp"
         android:layout_height="39dp"
-        android:background="#FF0000"
+        android:backgroundTint="@color/red"
         android:text="Sair"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

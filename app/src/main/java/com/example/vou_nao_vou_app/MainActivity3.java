@@ -11,6 +11,7 @@ public class MainActivity3 extends AppCompatActivity {
 
     private Button botao;
     private Button botao2;
+    private Button botaosair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         botao = findViewById(R.id.button_cadastrar);
         botao2 = findViewById(R.id.button3);
+        botaosair = findViewById(R.id.button4);
 
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,13 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity3.this,MainActivity5.class);
+                startActivity(intent);
+            }
+        });
+        botaosair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity3.this,MainActivity2.class);
                 startActivity(intent);
             }
         });
